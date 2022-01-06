@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  background-color: rgb(247, 219, 214);
+}
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(58, 57, 57);
+  color: white;
+  padding: 15px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+div > a {
+  text-decoration: none;
+  color: white;
+  background-color: tomato;
+  padding: 5px;
+}
+input {
+  width: 600px;
+  padding: 10px;
+}
+#data {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+#data > div {
+  box-sizing: border-box;
+  width: 300px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: rgb(58, 57, 57);
+  color: white;
+}
+#data > div > img {
+  width: 300px;
+}
+#data > div > p {
+  padding-left: 10px;
+}
